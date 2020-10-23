@@ -9,3 +9,13 @@ Using tensorflow a classifier should be created that can categorize images as ei
 
 
 (docker image `tensorflow/tensorflow:latest-jupyter` does not work because `scipy` is not installed)
+
+## Tests
+### What happens when the learning-rate is increased/decreased?
+TODO
+
+## What happens when layers are added/removed?
+TODO
+
+## What happens when parameters from the ImageDataGenerator are changed?
+TODO
