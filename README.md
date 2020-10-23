@@ -5,4 +5,7 @@ Using tensorflow a classifier should be created that can categorize images as ei
 ## Docker
 - Navigate to main directory of the repository
 - Run command:  
-`docker run -it --rm -v ${PWD}:/tf/notebooks -p 8888:8888 tensorflow/tensorflow:latest-jupyter`
+`docker run -it --rm -v ${PWD}:/home/jovyan/work -p 8888:8888 jupyter/tensorflow-notebook`
+
+
+(docker image `tensorflow/tensorflow:latest-jupyter` does not work because `scipy` is not installed)
